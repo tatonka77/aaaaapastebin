@@ -1,0 +1,487 @@
+INFO  [2013-05-28 15:27:41.540204 | logging] gmediarender 0.0.7-git log started (2013-05-27_916631a).
+INFO  [2013-05-28 15:27:41.540354 | output] Using output module: gst (GStreamer multimedia framework)
+INFO  [2013-05-28 15:27:41.595305 | connmgr] Registering support for 'video/x-raw-rgb'
+INFO  [2013-05-28 15:27:41.595402 | connmgr] Registering support for 'video/x-raw-yuv'
+INFO  [2013-05-28 15:27:41.595483 | connmgr] Registering support for 'audio/*'
+INFO  [2013-05-28 15:27:42.233760 | connmgr] Registering support for 'video/x-raw-gray'
+INFO  [2013-05-28 15:27:42.287485 | connmgr] Registering support for 'audio/x-raw-int'
+INFO  [2013-05-28 15:27:42.287991 | connmgr] Registering support for 'audio/x-raw-float'
+INFO  [2013-05-28 15:27:42.296473 | connmgr] Registering support for 'video/x-aasc'
+INFO  [2013-05-28 15:27:42.296961 | connmgr] Registering support for 'video/x-amv'
+INFO  [2013-05-28 15:27:42.297430 | connmgr] Registering support for 'unknown/unknown'
+INFO  [2013-05-28 15:27:42.298337 | connmgr] Registering support for 'video/x-asus'
+INFO  [2013-05-28 15:27:42.300154 | connmgr] Registering support for 'video/x-gst_ff-avs'
+INFO  [2013-05-28 15:27:42.301947 | connmgr] Registering support for 'image/bmp'
+INFO  [2013-05-28 15:27:42.303319 | connmgr] Registering support for 'video/x-gst_ff-cavs'
+INFO  [2013-05-28 15:27:42.304251 | connmgr] Registering support for 'video/x-cinepak'
+INFO  [2013-05-28 15:27:42.304717 | connmgr] Registering support for 'video/x-cirrus-logic-accupak'
+INFO  [2013-05-28 15:27:42.305202 | connmgr] Registering support for 'video/x-camstudio'
+INFO  [2013-05-28 15:27:42.305676 | connmgr] Registering support for 'video/x-compressed-yuv'
+INFO  [2013-05-28 15:27:42.306593 | connmgr] Registering support for 'video/x-dnxhd'
+INFO  [2013-05-28 15:27:42.308014 | connmgr] Registering support for 'video/x-dv'
+INFO  [2013-05-28 15:27:42.311617 | connmgr] Registering support for 'video/x-gst_ff-8bps'
+INFO  [2013-05-28 15:27:42.313468 | connmgr] Registering support for 'video/x-ffv'
+INFO  [2013-05-28 15:27:42.313952 | connmgr] Registering support for 'video/x-gst_ff-ffvhuff'
+INFO  [2013-05-28 15:27:42.314427 | connmgr] Registering support for 'video/x-flash-screen'
+INFO  [2013-05-28 15:27:42.315347 | connmgr] Registering support for 'video/x-gst_ff-flic'
+INFO  [2013-05-28 15:27:42.315847 | connmgr] Registering support for 'video/x-flash-video'
+INFO  [2013-05-28 15:27:42.316328 | connmgr] Registering support for 'video/x-4xm'
+INFO  [2013-05-28 15:27:42.316793 | connmgr] Registering support for 'video/x-fraps'
+INFO  [2013-05-28 15:27:42.317719 | connmgr] Registering support for 'video/x-h261'
+INFO  [2013-05-28 15:27:42.318210 | connmgr] Registering support for 'video/x-h263'
+INFO  [2013-05-28 15:27:42.318744 | connmgr] Registering support for 'video/x-intel-h263'
+INFO  [2013-05-28 15:27:42.319212 | connmgr] Registering support for 'video/x-h264'
+INFO  [2013-05-28 15:27:42.319691 | connmgr] Registering support for 'video/x-huffyuv'
+INFO  [2013-05-28 15:27:42.320172 | connmgr] Registering support for 'video/x-gst_ff-idcinvideo'
+INFO  [2013-05-28 15:27:42.321529 | connmgr] Registering support for 'video/x-indeo'
+INFO  [2013-05-28 15:27:42.323377 | connmgr] Registering support for 'video/x-gst_ff-interplayvideo'
+INFO  [2013-05-28 15:27:42.325205 | connmgr] Registering support for 'video/x-kmvc'
+INFO  [2013-05-28 15:27:42.325682 | connmgr] Registering support for 'video/x-lagarith'
+INFO  [2013-05-28 15:27:42.326152 | connmgr] Registering support for 'video/x-loco'
+INFO  [2013-05-28 15:27:42.326646 | connmgr] Registering support for 'video/x-gst_ff-mdec'
+INFO  [2013-05-28 15:27:42.327123 | connmgr] Registering support for 'video/x-mimic'
+INFO  [2013-05-28 15:27:42.327628 | connmgr] Registering support for 'image/jpeg'
+INFO  [2013-05-28 15:27:42.328106 | connmgr] Registering support for 'video/x-mjpeg-b'
+INFO  [2013-05-28 15:27:42.328602 | connmgr] Registering support for 'video/x-gst_ff-mmvideo'
+INFO  [2013-05-28 15:27:42.329520 | connmgr] Registering support for 'video/mpeg'
+INFO  [2013-05-28 15:27:42.330021 | connmgr] Registering support for 'video/x-divx'
+INFO  [2013-05-28 15:27:42.330060 | connmgr] Registering support for 'video/x-xvid'
+INFO  [2013-05-28 15:27:42.330076 | connmgr] Registering support for 'video/x-3ivx'
+INFO  [2013-05-28 15:27:42.330546 | connmgr] Registering support for 'video/x-msmpeg'
+INFO  [2013-05-28 15:27:42.331951 | connmgr] Registering support for 'video/x-rle'
+INFO  [2013-05-28 15:27:42.332431 | connmgr] Registering support for 'video/x-msvideocodec'
+INFO  [2013-05-28 15:27:42.332908 | connmgr] Registering support for 'video/x-mszh'
+INFO  [2013-05-28 15:27:42.333831 | connmgr] Registering support for 'video/x-nuv'
+INFO  [2013-05-28 15:27:42.334312 | connmgr] Registering support for 'image/x-portable-anymap'
+INFO  [2013-05-28 15:27:42.334785 | connmgr] Registering support for 'image/pbm'
+INFO  [2013-05-28 15:27:42.335261 | connmgr] Registering support for 'image/x-pcx'
+INFO  [2013-05-28 15:27:42.335746 | connmgr] Registering support for 'image/x-portable-graymap'
+INFO  [2013-05-28 15:27:42.336231 | connmgr] Registering support for 'video/x-gst_ff-pgmyuv'
+INFO  [2013-05-28 15:27:42.337148 | connmgr] Registering support for 'image/png'
+INFO  [2013-05-28 15:27:42.337613 | connmgr] Registering support for 'image/ppm'
+INFO  [2013-05-28 15:27:42.339001 | connmgr] Registering support for 'video/x-qdrw'
+INFO  [2013-05-28 15:27:42.339503 | connmgr] Registering support for 'video/x-gst_ff-qpeg'
+INFO  [2013-05-28 15:27:42.341398 | connmgr] Registering support for 'video/x-gst_ff-roqvideo'
+INFO  [2013-05-28 15:27:42.341877 | connmgr] Registering support for 'video/x-apple-video'
+INFO  [2013-05-28 15:27:42.342357 | connmgr] Registering support for 'video/x-pn-realvideo'
+INFO  [2013-05-28 15:27:42.344726 | connmgr] Registering support for 'image/x-sgi'
+INFO  [2013-05-28 15:27:42.345646 | connmgr] Registering support for 'video/x-smc'
+INFO  [2013-05-28 15:27:42.346119 | connmgr] Registering support for 'video/x-gst_ff-snow'
+INFO  [2013-05-28 15:27:42.346601 | connmgr] Registering support for 'video/sp5x'
+INFO  [2013-05-28 15:27:42.347080 | connmgr] Registering support for 'image/x-sun-raster'
+INFO  [2013-05-28 15:27:42.347565 | connmgr] Registering support for 'video/x-svq'
+INFO  [2013-05-28 15:27:42.348511 | connmgr] Registering support for 'image/x-tga'
+INFO  [2013-05-28 15:27:42.349860 | connmgr] Registering support for 'image/tiff'
+INFO  [2013-05-28 15:27:42.350788 | connmgr] Registering support for 'video/x-truemotion'
+INFO  [2013-05-28 15:27:42.351758 | connmgr] Registering support for 'video/x-camtasia'
+INFO  [2013-05-28 15:27:42.352682 | connmgr] Registering support for 'video/x-ultimotion'
+INFO  [2013-05-28 15:27:42.354955 | connmgr] Registering support for 'video/x-wmv'
+INFO  [2013-05-28 15:27:42.355898 | connmgr] Registering support for 'video/x-ati-vcr'
+INFO  [2013-05-28 15:27:42.356382 | connmgr] Registering support for 'video/x-gst_ff-vmdvideo'
+INFO  [2013-05-28 15:27:42.356860 | connmgr] Registering support for 'video/x-vmnc'
+INFO  [2013-05-28 15:27:42.357335 | connmgr] Registering support for 'video/x-vp3'
+INFO  [2013-05-28 15:27:42.357819 | connmgr] Registering support for 'video/x-vp5'
+INFO  [2013-05-28 15:27:42.358296 | connmgr] Registering support for 'video/x-vp6'
+INFO  [2013-05-28 15:27:42.358777 | connmgr] Registering support for 'video/x-vp6-alpha'
+INFO  [2013-05-28 15:27:42.359247 | connmgr] Registering support for 'video/x-vp6-flash'
+INFO  [2013-05-28 15:27:42.359762 | connmgr] Registering support for 'video/x-vp8'
+INFO  [2013-05-28 15:27:42.360243 | connmgr] Registering support for 'video/x-gst_ff-vqavideo'
+INFO  [2013-05-28 15:27:42.362539 | connmgr] Registering support for 'video/x-gst_ff-wnv1'
+INFO  [2013-05-28 15:27:42.363024 | connmgr] Registering support for 'video/x-xan'
+INFO  [2013-05-28 15:27:42.363994 | connmgr] Registering support for 'video/x-gst_ff-xl'
+INFO  [2013-05-28 15:27:42.364916 | connmgr] Registering support for 'video/x-zlib'
+INFO  [2013-05-28 15:27:42.365400 | connmgr] Registering support for 'video/x-zmbv'
+INFO  [2013-05-28 15:27:42.365901 | connmgr] Registering support for 'audio/mpeg'
+INFO  [2013-05-28 15:27:42.365938 | connmgr] Registering support for 'audio/x-mpeg'
+INFO  [2013-05-28 15:27:42.365955 | connmgr] Registering support for 'audio/x-scpls'
+INFO  [2013-05-28 15:27:42.365970 | connmgr] Registering support for 'audio/L16;rate=44100;channels=2'
+INFO  [2013-05-28 15:27:42.366909 | connmgr] Registering support for 'audio/x-ac3'
+INFO  [2013-05-28 15:27:42.367399 | connmgr] Registering support for 'audio/x-alac'
+INFO  [2013-05-28 15:27:42.368345 | connmgr] Registering support for 'audio/AMR'
+INFO  [2013-05-28 15:27:42.368821 | connmgr] Registering support for 'audio/AMR-WB'
+INFO  [2013-05-28 15:27:42.369324 | connmgr] Registering support for 'audio/x-ffmpeg-parsed-ape'
+INFO  [2013-05-28 15:27:42.369817 | connmgr] Registering support for 'audio/x-vnd.sony.atrac1'
+INFO  [2013-05-28 15:27:42.370299 | connmgr] Registering support for 'audio/x-vnd.sony.atrac3'
+INFO  [2013-05-28 15:27:42.372223 | connmgr] Registering support for 'audio/x-pn-realaudio'
+INFO  [2013-05-28 15:27:42.372703 | connmgr] Registering support for 'audio/x-dts'
+INFO  [2013-05-28 15:27:42.373665 | connmgr] Registering support for 'audio/x-eac3'
+INFO  [2013-05-28 15:27:42.374148 | connmgr] Registering support for 'audio/x-flac'
+INFO  [2013-05-28 15:27:42.374641 | connmgr] Registering support for 'audio/x-gsm'
+INFO  [2013-05-28 15:27:42.375140 | connmgr] Registering support for 'audio/ms-gsm'
+INFO  [2013-05-28 15:27:42.375657 | connmgr] Registering support for 'audio/x-imc'
+INFO  [2013-05-28 15:27:42.376172 | connmgr] Registering support for 'audio/x-mace'
+INFO  [2013-05-28 15:27:42.377134 | connmgr] Registering support for 'audio/x-mlp'
+INFO  [2013-05-28 15:27:42.379580 | connmgr] Registering support for 'audio/x-gst_ff-mp3adu'
+INFO  [2013-05-28 15:27:42.380556 | connmgr] Registering support for 'audio/x-gst_ff-mp3on4'
+INFO  [2013-05-28 15:27:42.381523 | connmgr] Registering support for 'audio/x-ffmpeg-parsed-musepack'
+INFO  [2013-05-28 15:27:42.382479 | connmgr] Registering support for 'audio/x-nellymoser'
+INFO  [2013-05-28 15:27:42.382970 | connmgr] Registering support for 'audio/qcelp'
+INFO  [2013-05-28 15:27:42.383475 | connmgr] Registering support for 'audio/x-qdm2'
+INFO  [2013-05-28 15:27:42.384907 | connmgr] Registering support for 'audio/x-shorten'
+INFO  [2013-05-28 15:27:42.385401 | connmgr] Registering support for 'audio/x-sipro'
+INFO  [2013-05-28 15:27:42.386353 | connmgr] Registering support for 'audio/x-true-hd'
+INFO  [2013-05-28 15:27:42.386844 | connmgr] Registering support for 'audio/x-truespeech'
+INFO  [2013-05-28 15:27:42.387344 | connmgr] Registering support for 'audio/x-tta'
+INFO  [2013-05-28 15:27:42.387862 | connmgr] Registering support for 'audio/x-twin-vq'
+INFO  [2013-05-28 15:27:42.388361 | connmgr] Registering support for 'audio/x-gst_ff-vmdaudio'
+INFO  [2013-05-28 15:27:42.388854 | connmgr] Registering support for 'audio/x-wma'
+INFO  [2013-05-28 15:27:42.390292 | connmgr] Registering support for 'audio/x-wms'
+INFO  [2013-05-28 15:27:42.390807 | connmgr] Registering support for 'audio/x-gst_ff-ws_snd1'
+INFO  [2013-05-28 15:27:42.392217 | connmgr] Registering support for 'audio/x-dpcm'
+INFO  [2013-05-28 15:27:42.394168 | connmgr] Registering support for 'audio/x-adpcm'
+INFO  [2013-05-28 15:27:42.398457 | connmgr] Registering support for 'audio/G722'
+INFO  [2013-05-28 15:27:42.408178 | connmgr] Registering support for 'audio/x-aiff'
+INFO  [2013-05-28 15:27:42.408337 | connmgr] Registering support for 'application/x-ape'
+INFO  [2013-05-28 15:27:42.408488 | connmgr] Registering support for 'application/x-gst_ff-avs'
+INFO  [2013-05-28 15:27:42.408645 | connmgr] Registering support for 'application/x-gst_ff-daud'
+INFO  [2013-05-28 15:27:42.408803 | connmgr] Registering support for 'application/x-gst_ff-ea'
+INFO  [2013-05-28 15:27:42.408948 | connmgr] Registering support for 'application/x-gst_ff-ffm'
+INFO  [2013-05-28 15:27:42.409233 | connmgr] Registering support for 'application/gxf'
+INFO  [2013-05-28 15:27:42.409417 | connmgr] Registering support for 'application/x-gst_ff-idcin'
+INFO  [2013-05-28 15:27:42.409568 | connmgr] Registering support for 'application/x-gst_ff-ipmovie'
+INFO  [2013-05-28 15:27:42.409734 | connmgr] Registering support for 'application/x-gst_ff-mm'
+INFO  [2013-05-28 15:27:42.409886 | connmgr] Registering support for 'application/x-gst_ff-mmf'
+INFO  [2013-05-28 15:27:42.410064 | connmgr] Registering support for 'audio/x-musepack'
+INFO  [2013-05-28 15:27:42.410212 | connmgr] Registering support for 'application/mxf'
+INFO  [2013-05-28 15:27:42.410367 | connmgr] Registering support for 'video/x-nsv'
+INFO  [2013-05-28 15:27:42.410513 | connmgr] Registering support for 'application/x-gst_ff-nut'
+INFO  [2013-05-28 15:27:42.410667 | connmgr] Registering support for 'application/x-gst_ff-nuv'
+INFO  [2013-05-28 15:27:42.410818 | connmgr] Registering support for 'application/x-gst_ff-RoQ'
+INFO  [2013-05-28 15:27:42.410968 | connmgr] Registering support for 'application/x-gst_ff-film_cpk'
+INFO  [2013-05-28 15:27:42.411122 | connmgr] Registering support for 'application/x-gst_ff-smk'
+INFO  [2013-05-28 15:27:42.411293 | connmgr] Registering support for 'application/x-gst_ff-sol'
+INFO  [2013-05-28 15:27:42.411480 | connmgr] Registering support for 'application/x-gst_ff-psxstr'
+INFO  [2013-05-28 15:27:42.411649 | connmgr] Registering support for 'application/x-shockwave-flash'
+INFO  [2013-05-28 15:27:42.411798 | connmgr] Registering support for 'audio/x-ttafile'
+INFO  [2013-05-28 15:27:42.411956 | connmgr] Registering support for 'application/x-gst_ff-vmd'
+INFO  [2013-05-28 15:27:42.412105 | connmgr] Registering support for 'application/x-gst_ff-voc'
+INFO  [2013-05-28 15:27:42.412261 | connmgr] Registering support for 'application/x-gst_ff-wc3movie'
+INFO  [2013-05-28 15:27:42.412413 | connmgr] Registering support for 'application/x-gst_ff-wsaud'
+INFO  [2013-05-28 15:27:42.412580 | connmgr] Registering support for 'application/x-gst_ff-wsvqa'
+INFO  [2013-05-28 15:27:42.412734 | connmgr] Registering support for 'application/x-yuv4mpeg'
+INFO  [2013-05-28 15:27:42.417935 | connmgr] Registering support for 'audio/x-mulaw'
+INFO  [2013-05-28 15:27:42.417965 | connmgr] Registering support for 'audio/x-alaw'
+INFO  [2013-05-28 15:27:42.421043 | connmgr] Registering support for 'video/x-theora'
+
+(gmediarender:3840): GStreamer-CRITICAL **: gst_pad_new_from_template: assertion `GST_IS_PAD_TEMPLATE (templ)' failed
+
+(gmediarender:3840): GStreamer-CRITICAL **: gst_pad_template_get_caps: assertion `GST_IS_PAD_TEMPLATE (templ)' failed
+
+(gmediarender:3840): GStreamer-CRITICAL **: gst_pad_set_caps: assertion `GST_IS_PAD (pad)' failed
+
+(gmediarender:3840): GStreamer-CRITICAL **: gst_element_add_pad: assertion `GST_IS_PAD (pad)' failed
+INFO  [2013-05-28 15:27:42.454997 | connmgr] Registering support for 'video/x-raw-bayer'
+INFO  [2013-05-28 15:27:42.562333 | connmgr] Registering support for 'audio/x-celt'
+INFO  [2013-05-28 15:27:42.600277 | connmgr] Registering support for 'image/x-portable-bitmap'
+INFO  [2013-05-28 15:27:42.600341 | connmgr] Registering support for 'image/x-portable-pixmap'
+INFO  [2013-05-28 15:27:42.696549 | connmgr] Registering support for 'application/ogg'
+INFO  [2013-05-28 15:27:42.704655 | connmgr] Registering support for 'text/plain'
+INFO  [2013-05-28 15:27:42.719717 | connmgr] Registering support for 'video/x-flv'
+INFO  [2013-05-28 15:27:42.720547 | connmgr] Registering support for 'audio/x-speex'
+INFO  [2013-05-28 15:27:42.778041 | connmgr] Registering support for 'audio/ac3'
+INFO  [2013-05-28 15:27:42.778105 | connmgr] Registering support for 'audio/x-private1-ac3'
+INFO  [2013-05-28 15:27:42.812868 | connmgr] Registering support for 'image/gif'
+INFO  [2013-05-28 15:27:42.812929 | connmgr] Registering support for 'image/x-icon'
+INFO  [2013-05-28 15:27:42.812965 | connmgr] Registering support for 'application/x-navi-animation'
+INFO  [2013-05-28 15:27:42.812998 | connmgr] Registering support for 'image/x-cmu-raster'
+INFO  [2013-05-28 15:27:42.813036 | connmgr] Registering support for 'image/x-pixmap'
+INFO  [2013-05-28 15:27:42.813088 | connmgr] Registering support for 'image/x-bmp'
+INFO  [2013-05-28 15:27:42.813121 | connmgr] Registering support for 'image/x-MS-bmp'
+INFO  [2013-05-28 15:27:42.813184 | connmgr] Registering support for 'image/vnd.wap.wbmp'
+INFO  [2013-05-28 15:27:42.813218 | connmgr] Registering support for 'image/x-bitmap'
+INFO  [2013-05-28 15:27:42.813258 | connmgr] Registering support for 'image/svg'
+INFO  [2013-05-28 15:27:42.813291 | connmgr] Registering support for 'image/svg+xml'
+INFO  [2013-05-28 15:27:42.841954 | connmgr] Registering support for 'video/x-dirac'
+INFO  [2013-05-28 15:27:42.861131 | connmgr] Registering support for 'audio/x-private1-dts'
+INFO  [2013-05-28 15:27:42.898206 | connmgr] Registering support for 'text/x-pango-markup'
+INFO  [2013-05-28 15:27:43.107207 | connmgr] Registering support for 'application/x-ass'
+INFO  [2013-05-28 15:27:43.107278 | connmgr] Registering support for 'application/x-ssa'
+INFO  [2013-05-28 15:27:43.159104 | connmgr] Registering support for 'raw/x-pcap'
+INFO  [2013-05-28 15:27:43.180023 | connmgr] Registering support for 'video/x-msvideo'
+INFO  [2013-05-28 15:27:43.181232 | connmgr] Registering support for 'image/x-jpc'
+INFO  [2013-05-28 15:27:43.181562 | connmgr] Registering support for 'application/x-subtitle-avi'
+INFO  [2013-05-28 15:27:43.223881 | connmgr] Registering support for 'audio/x-nsf'
+INFO  [2013-05-28 15:27:43.278075 | connmgr] Registering support for 'application/x-rtp'
+INFO  [2013-05-28 15:27:43.278126 | connmgr] Registering support for 'application/x-rtcp'
+INFO  [2013-05-28 15:27:43.329827 | connmgr] Registering support for 'video/x-dvd-subpicture'
+INFO  [2013-05-28 15:27:43.416032 | connmgr] Registering support for 'application/x-hls'
+INFO  [2013-05-28 15:27:43.418199 | connmgr] Registering support for 'audio/x-lpcm'
+INFO  [2013-05-28 15:27:43.435036 | connmgr] Registering support for 'audio/x-ay'
+INFO  [2013-05-28 15:27:43.435101 | connmgr] Registering support for 'audio/x-gbs'
+INFO  [2013-05-28 15:27:43.435141 | connmgr] Registering support for 'audio/x-gym'
+INFO  [2013-05-28 15:27:43.435178 | connmgr] Registering support for 'audio/x-hes'
+INFO  [2013-05-28 15:27:43.435214 | connmgr] Registering support for 'audio/x-kss'
+INFO  [2013-05-28 15:27:43.435252 | connmgr] Registering support for 'audio/x-sap'
+INFO  [2013-05-28 15:27:43.435288 | connmgr] Registering support for 'audio/x-spc'
+INFO  [2013-05-28 15:27:43.435326 | connmgr] Registering support for 'audio/x-vgm'
+INFO  [2013-05-28 15:27:43.505835 | connmgr] Registering support for 'video/x-fli'
+INFO  [2013-05-28 15:27:43.525990 | connmgr] Registering support for 'text/x-cmml'
+INFO  [2013-05-28 15:27:43.589233 | connmgr] Registering support for 'video/x-ivf'
+INFO  [2013-05-28 15:27:43.603297 | connmgr] Registering support for 'video/x-ms-asf'
+INFO  [2013-05-28 15:27:43.732234 | connmgr] Registering support for 'audio/x-mod'
+INFO  [2013-05-28 15:27:43.732288 | connmgr] Registering support for 'audio/x-xm'
+INFO  [2013-05-28 15:27:43.732310 | connmgr] Registering support for 'audio/x-it'
+INFO  [2013-05-28 15:27:43.732332 | connmgr] Registering support for 'audio/x-s3m'
+INFO  [2013-05-28 15:27:43.732353 | connmgr] Registering support for 'audio/x-stm'
+INFO  [2013-05-28 15:27:43.780340 | connmgr] Registering support for 'video/x-cdxa'
+INFO  [2013-05-28 15:27:43.780716 | connmgr] Registering support for 'video/x-vcd'
+INFO  [2013-05-28 15:27:43.816172 | connmgr] Registering support for 'subtitle/x-kate'
+INFO  [2013-05-28 15:27:43.817075 | connmgr] Registering support for 'application/x-kate'
+INFO  [2013-05-28 15:27:43.874357 | connmgr] Registering support for 'private/teletext'
+INFO  [2013-05-28 15:27:43.942995 | connmgr] Registering support for 'audio/x-bv'
+INFO  [2013-05-28 15:27:43.944984 | connmgr] Registering support for 'audio/x-iLBC'
+INFO  [2013-05-28 15:27:43.946375 | connmgr] Registering support for 'audio/G723'
+INFO  [2013-05-28 15:27:43.947637 | connmgr] Registering support for 'audio/G729'
+INFO  [2013-05-28 15:27:43.951368 | connmgr] Registering support for 'video/x-jpeg'
+INFO  [2013-05-28 15:27:43.952368 | connmgr] Registering support for 'video/mpegts'
+INFO  [2013-05-28 15:27:43.953822 | connmgr] Registering support for 'audio/x-siren'
+INFO  [2013-05-28 15:27:43.954988 | connmgr] Registering support for 'audio/x-vorbis'
+INFO  [2013-05-28 15:27:43.983904 | connmgr] Registering support for 'application/vnd.rn-realmedia'
+INFO  [2013-05-28 15:27:43.984200 | connmgr] Registering support for 'application/x-pn-realaudio'
+INFO  [2013-05-28 15:27:43.984559 | connmgr] Registering support for 'application/x-rdt'
+INFO  [2013-05-28 15:27:44.041477 | connmgr] Registering support for 'audio/x-wavpack'
+INFO  [2013-05-28 15:27:44.041539 | connmgr] Registering support for 'audio/x-wavpack-correction'
+INFO  [2013-05-28 15:27:44.243020 | connmgr] Registering support for 'audio/midi'
+INFO  [2013-05-28 15:27:44.243078 | connmgr] Registering support for 'audio/riff-midi'
+INFO  [2013-05-28 15:27:44.280409 | connmgr] Registering support for 'application/x-raw-sdi'
+INFO  [2013-05-28 15:27:44.289500 | connmgr] Registering support for 'audio/x-private1-lpcm'
+INFO  [2013-05-28 15:27:44.381659 | connmgr] Registering support for 'subpicture/x-pgs'
+INFO  [2013-05-28 15:27:44.394304 | connmgr] Registering support for 'subpicture/x-dvb'
+INFO  [2013-05-28 15:27:44.412523 | connmgr] Registering support for 'video/x-matroska'
+INFO  [2013-05-28 15:27:44.412583 | connmgr] Registering support for 'video/webm'
+INFO  [2013-05-28 15:27:44.455215 | connmgr] Registering support for 'application/x-apetag'
+INFO  [2013-05-28 15:27:44.526536 | connmgr] Registering support for 'video/quicktime'
+INFO  [2013-05-28 15:27:44.526611 | connmgr] Registering support for 'video/mj2'
+INFO  [2013-05-28 15:27:44.526654 | connmgr] Registering support for 'audio/x-m4a'
+INFO  [2013-05-28 15:27:44.526694 | connmgr] Registering support for 'application/x-3gp'
+INFO  [2013-05-28 15:27:44.528161 | connmgr] Registering support for 'video/x-qt-part'
+INFO  [2013-05-28 15:27:44.528938 | connmgr] Registering support for 'video/x-mp4-part'
+INFO  [2013-05-28 15:27:44.531847 | connmgr] Registering support for 'image/x-j2c'
+INFO  [2013-05-28 15:27:44.898778 | connmgr] Registering support for 'audio/x-amr-nb-sh'
+INFO  [2013-05-28 15:27:44.898866 | connmgr] Registering support for 'audio/x-amr-wb-sh'
+INFO  [2013-05-28 15:27:45.024676 | connmgr] Registering support for 'hdv/aux-v'
+INFO  [2013-05-28 15:27:45.024754 | connmgr] Registering support for 'hdv/aux-a'
+INFO  [2013-05-28 15:27:45.126650 | connmgr] Registering support for 'application/x-icy'
+INFO  [2013-05-28 15:27:45.437212 | connmgr] Registering support for 'application/x-id3'
+INFO  [2013-05-28 15:27:45.470375 | connmgr] Registering support for 'audio/x-au'
+INFO  [2013-05-28 15:27:45.497901 | connmgr] Registering support for 'video/x-sonix'
+INFO  [2013-05-28 15:27:45.497983 | connmgr] Registering support for 'video/x-pwc1'
+INFO  [2013-05-28 15:27:45.498029 | connmgr] Registering support for 'video/x-pwc2'
+INFO  [2013-05-28 15:27:45.523209 | connmgr] Registering support for 'multipart/x-mixed-replace'
+INFO  [2013-05-28 15:27:45.531452 | connmgr] Registering support for 'video/x-mve'
+INFO  [2013-05-28 15:27:45.609972 | connmgr] Registering support for 'application/x-bzip'
+INFO  [2013-05-28 15:27:45.660135 | connmgr] Registering support for 'audio/x-sid'
+INFO  [2013-05-28 15:27:45.676869 | connmgr] Registering support for 'video/x-smoke'
+INFO  [2013-05-28 15:27:45.772334 | connmgr] Registering support for 'application/sdp'
+INFO  [2013-05-28 15:27:46.161490 | connmgr] Registering support for 'video/x-raw-grey'
+INFO  [2013-05-28 15:27:46.203651 | connmgr] Registering support for 'audio/x-wav'
+INFO  [2013-05-28 15:27:46.384843 | connmgr] Registering support for 'image/jp2'
+INFO  [2013-05-28 15:27:46.814960 | connmgr] Registering support for 'application/x-subtitle'
+INFO  [2013-05-28 15:27:46.815048 | connmgr] Registering support for 'application/x-subtitle-sami'
+INFO  [2013-05-28 15:27:46.815092 | connmgr] Registering support for 'application/x-subtitle-tmplayer'
+INFO  [2013-05-28 15:27:46.815135 | connmgr] Registering support for 'application/x-subtitle-mpl2'
+INFO  [2013-05-28 15:27:46.815178 | connmgr] Registering support for 'application/x-subtitle-dks'
+INFO  [2013-05-28 15:27:46.815245 | connmgr] Registering support for 'application/x-subtitle-qttext'
+INFO  [2013-05-28 15:27:46.827125 | connmgr] Registering support for 'video/x-surface'
+INFO  [2013-05-28 15:27:46.965429 | connmgr] Registering support for 'audio/x-sbc'
+INFO  [2013-05-28 15:27:46.996926 | connmgr] Registering support for 'application/x-gdp'
+INFO  [2013-05-28 15:27:47.011281 | connmgr] Registering support for 'audio/x-iec958'
+INFO  [2013-05-28 15:27:47.054119 | connmgr] Registering support for 'application/x-ogg-avi'
+INFO  [2013-05-28 15:27:47.054753 | connmgr] Registering support for 'application/x-ogm-text'
+INFO  [2013-05-28 15:27:47.057298 | connmgr] Registering support for 'application/x-ogm-video'
+INFO  [2013-05-28 15:27:47.057928 | connmgr] Registering support for 'application/x-ogm-audio'
+INFO  [2013-05-28 15:27:47.058574 | connmgr] Registering support for 'audio/x-opus'
+INFO  [2013-05-28 15:27:47.058860 | connmgr] Registering support for 'application/x-annodex'
+INFO  [2013-05-28 15:27:47.183857 | gstreamer] Set mute to off
+INFO  [2013-05-28 15:27:47.184255 | webserver] Provide /upnp/grender-64x64.png (image/png) from /usr/local/share/gmediarender/grender-64x64.png
+INFO  [2013-05-28 15:27:47.212370 | webserver] Provide /upnp/grender-128x128.png (image/png) from /usr/local/share/gmediarender/grender-128x128.png
+INFO  [2013-05-28 15:27:47.222348 | webserver] Provide /upnp/rendertransportSCPD.xml (text/xml) from buffer
+INFO  [2013-05-28 15:27:47.223747 | webserver] Provide /upnp/renderconnmgrSCPD.xml (text/xml) from buffer
+INFO  [2013-05-28 15:27:47.225563 | webserver] Provide /upnp/rendercontrolSCPD.xml (text/xml) from buffer
+INFO  [2013-05-28 15:27:47.243214 | upnp] Registered IP=172.18.1.183 port=49494
+INFO  [2013-05-28 15:27:47.846955 | gstreamer] Query volume fraction: 1.000000
+INFO  [2013-05-28 15:27:47.847026 | control] Output inital volume is 1.000000; setting control variables accordingly.
+INFO  [2013-05-28 15:27:47.847063 | control] Setting volume-db to 0.00db == #100
+INFO  [2013-05-28 15:27:47.847534 | main] Ready for rendering.
+gmediarender 0.0.7-git version 2013-05-27_916631a ready for rendering.
+INFO  [2013-05-28 15:27:47.979844 | webserver] webserver_get_info:(filename='/upnp/rendertransportSCPD.xml',info=0xacdeaf90)
+INFO  [2013-05-28 15:27:48.010568 | webserver] webserver_get_info:(filename='/upnp/renderconnmgrSCPD.xml',info=0xaddecf90)
+INFO  [2013-05-28 15:27:48.035215 | webserver] webserver_get_info:(filename='/upnp/rendercontrolSCPD.xml',info=0xacdeaf90)
+INFO  [2013-05-28 15:27:48.304931 | webserver] webserver_get_info:(filename='/upnp/grender-64x64.png',info=0xaddecf90)
+INFO  [2013-05-28 15:27:48.346555 | upnp] Subscription request for urn:upnp-org:serviceId:AVTransport (uuid:GMediaRender-1_0-000-000-002)
+INFO  [2013-05-28 15:27:48.346953 | upnp] Initial variable sync: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<TransportStatus val="OK"></TransportStatus>
+<NextAVTransportURI val=""></NextAVTransportURI>
+<NextAVTransportURIMetaData val=""></NextAVTransportURIMetaData>
+<CurrentTrackMetaData val=""></CurrentTrackMetaData>
+<RelativeCounterPosition val="2147483647"></RelativeCounterPosition>
+<A_ARG_TYPE_InstanceID val="0"></A_ARG_TYPE_InstanceID>
+<A_ARG_TYPE_SeekTarget val=""></A_ARG_TYPE_SeekTarget>
+<PlaybackStorageMedium val="UNKNOWN"></PlaybackStorageMedium>
+<RelativeTimePosition val="0:00:00"></RelativeTimePosition>
+<PossibleRecordStorageMedia val="NOT_IMPLEMENTED"></PossibleRecordStorageMedia>
+<CurrentPlayMode val="NORMAL"></CurrentPlayMode>
+<TransportPlaySpeed val="1"></TransportPlaySpeed>
+<PossiblePlaybackStorageMedia val="NETWORK,UNKNOWN"></PossiblePlaybackStorageMedia>
+<AbsoluteTimePosition val="NOT_IMPLEMENTED"></AbsoluteTimePosition>
+<CurrentTrack val="0"></CurrentTrack>
+<CurrentTrackURI val=""></CurrentTrackURI>
+<CurrentTransportActions val="PLAY"></CurrentTransportActions>
+<NumberOfTracks val="0"></NumberOfTracks>
+<AVTransportURI val=""></AVTransportURI>
+<AbsoluteCounterPosition val="2147483647"></AbsoluteCounterPosition>
+<CurrentRecordQualityMode val="NOT_IMPLEMENTED"></CurrentRecordQualityMode>
+<CurrentMediaDuration val=""></CurrentMediaDuration>
+<A_ARG_TYPE_SeekMode val="TRACK_NR"></A_ARG_TYPE_SeekMode>
+<AVTransportURIMetaData val=""></AVTransportURIMetaData>
+<RecordStorageMedium val="NOT_IMPLEMENTED"></RecordStorageMedium>
+<RecordMediumWriteStatus val="NOT_IMPLEMENTED"></RecordMediumWriteStatus>
+<CurrentTrackDuration val="0:00:00"></CurrentTrackDuration>
+<TransportState val="STOPPED"></TransportState>
+<PossibleRecordQualityModes val="NOT_IMPLEMENTED"></PossibleRecordQualityModes>
+</InstanceID>
+</Event>
+INFO  [2013-05-28 15:27:48.350764 | upnp] Subscription request for urn:upnp-org:serviceId:ConnectionManager (uuid:GMediaRender-1_0-000-000-002)
+INFO  [2013-05-28 15:27:48.350890 | upnp] Subscription request for urn:upnp-org:serviceId:RenderingControl (uuid:GMediaRender-1_0-000-000-002)
+INFO  [2013-05-28 15:27:48.353581 | upnp] Initial variable sync: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<A_ARG_TYPE_ConnectionManager val="/"></A_ARG_TYPE_ConnectionManager>
+<SinkProtocolInfo val="http-get:*:application/x-annodex:*,http-get:*:audio/x-opus:*,http-get:*:application/x-ogm-audio:*,http-get:*:application/x-ogm-video:*,http-get:*:application/x-ogm-text:*,http-get:*:application/x-ogg-avi:*,http-get:*:audio/x-iec958:*,http-get:*:application/x-gdp:*,http-get:*:audio/x-sbc:*,http-get:*:video/x-surface:*,http-get:*:application/x-subtitle-qttext:*,http-get:*:application/x-subtitle-dks:*,http-get:*:application/x-subtitle-mpl2:*,http-get:*:application/x-subtitle-tmplayer:*,http-get:*:application/x-subtitle-sami:*,http-get:*:application/x-subtitle:*,http-get:*:image/jp2:*,http-get:*:audio/x-wav:*,http-get:*:video/x-raw-grey:*,http-get:*:application/sdp:*,http-get:*:video/x-smoke:*,http-get:*:audio/x-sid:*,http-get:*:application/x-bzip:*,http-get:*:video/x-mve:*,http-get:*:multipart/x-mixed-replace:*,http-get:*:video/x-pwc2:*,http-get:*:video/x-pwc1:*,http-get:*:video/x-sonix:*,http-get:*:audio/x-au:*,http-get:*:application/x-id3:*,http-get:*:application/x-icy:*,http-get:*:hdv/aux-a:*,http-get:*:hdv/aux-v:*,http-get:*:audio/x-amr-wb-sh:*,http-get:*:audio/x-amr-nb-sh:*,http-get:*:image/x-j2c:*,http-get:*:video/x-mp4-part:*,http-get:*:video/x-qt-part:*,http-get:*:application/x-3gp:*,http-get:*:audio/x-m4a:*,http-get:*:video/mj2:*,http-get:*:video/quicktime:*,http-get:*:application/x-apetag:*,http-get:*:video/webm:*,http-get:*:video/x-matroska:*,http-get:*:subpicture/x-dvb:*,http-get:*:subpicture/x-pgs:*,http-get:*:audio/x-private1-lpcm:*,http-get:*:application/x-raw-sdi:*,http-get:*:audio/riff-midi:*,http-get:*:audio/midi:*,http-get:*:audio/x-wavpack-correction:*,http-get:*:audio/x-wavpack:*,http-get:*:application/x-rdt:*,http-get:*:application/x-pn-realaudio:*,http-get:*:application/vnd.rn-realmedia:*,http-get:*:audio/x-vorbis:*,http-get:*:audio/x-siren:*,http-get:*:video/mpegts:*,http-get:*:video/x-jpeg:*,http-get:*:audio/G729:*,http-get:*:audio/G723:*,http-get:*:audio/x-iLBC:*,http-get:*:audio/x-bv:*,http-get:*:private/teletext:*,http-get:*:application/x-kate:*,http-get:*:subtitle/x-kate:*,http-get:*:video/x-vcd:*,http-get:*:video/x-cdxa:*,http-get:*:audio/x-stm:*,http-get:*:audio/x-s3m:*,http-get:*:audio/x-it:*,http-get:*:audio/x-xm:*,http-get:*:audio/x-mod:*,http-get:*:video/x-ms-asf:*,http-get:*:video/x-ivf:*,http-get:*:text/x-cmml:*,http-get:*:video/x-fli:*,http-get:*:audio/x-vgm:*,http-get:*:audio/x-spc:*,http-get:*:audio/x-sap:*,http-get:*:audio/x-kss:*,http-get:*:audio/x-hes:*,http-get:*:audio/x-gym:*,http-get:*:audio/x-gbs:*,http-get:*:audio/x-ay:*,http-get:*:audio/x-lpcm:*,http-get:*:application/x-hls:*,http-get:*:video/x-dvd-subpicture:*,http-get:*:application/x-rtcp:*,http-get:*:application/x-rtp:*,http-get:*:audio/x-nsf:*,http-get:*:application/x-subtitle-avi:*,http-get:*:image/x-jpc:*,http-get:*:video/x-msvideo:*,http-get:*:raw/x-pcap:*,http-get:*:application/x-ssa:*,http-get:*:application/x-ass:*,http-get:*:text/x-pango-markup:*,http-get:*:audio/x-private1-dts:*,http-get:*:video/x-dirac:*,http-get:*:image/svg+xml:*,http-get:*:image/svg:*,http-get:*:image/x-bitmap:*,http-get:*:image/vnd.wap.wbmp:*,http-get:*:image/x-MS-bmp:*,http-get:*:image/x-bmp:*,http-get:*:image/x-pixmap:*,http-get:*:image/x-cmu-raster:*,http-get:*:application/x-navi-animation:*,http-get:*:image/x-icon:*,http-get:*:image/gif:*,http-get:*:audio/x-private1-ac3:*,http-get:*:audio/ac3:*,http-get:*:audio/x-speex:*,http-get:*:video/x-flv:*,http-get:*:text/plain:*,http-get:*:application/ogg:*,http-get:*:image/x-portable-pixmap:*,http-get:*:image/x-portable-bitmap:*,http-get:*:audio/x-celt:*,http-get:*:video/x-raw-bayer:*,http-get:*:video/x-theora:*,http-get:*:audio/x-alaw:*,http-get:*:audio/x-mulaw:*,http-get:*:application/x-yuv4mpeg:*,http-get:*:application/x-gst_ff-wsvqa:*,http-get:*:application/x-gst_ff-wsaud:*,http-get:*:application/x-gst_ff-wc3movie:*,http-get:*:application/x-gst_ff-voc:*,http-get:*:application/x-gst_ff-vmd:*,http-get:*:audio/x-ttafile:*,http-get:*:application/x-shockwave-flash:*,http-get:*:application/x-gst_ff-psxstr:*,http-get:*:application/x-gst_ff-sol:*,http-get:*:application/x-gst_ff-smk:*,http-get:*:application/x-gst_ff-film_cpk:*,http-get:*:application/x-gst_ff-RoQ:*,http-get:*:application/x-gst_ff-nuv:*,http-get:*:application/x-gst_ff-nut:*,http-get:*:video/x-nsv:*,http-get:*:application/mxf:*,http-get:*:audio/x-musepack:*,http-get:*:application/x-gst_ff-mmf:*,http-get:*:application/x-gst_ff-mm:*,http-get:*:application/x-gst_ff-ipmovie:*,http-get:*:application/x-gst_ff-idcin:*,http-get:*:application/gxf:*,http-get:*:application/x-gst_ff-ffm:*,http-get:*:application/x-gst_ff-ea:*,http-get:*:application/x-gst_ff-daud:*,http-get:*:application/x-gst_ff-avs:*,http-get:*:application/x-ape:*,http-get:*:audio/x-aiff:*,http-get:*:audio/G722:*,http-get:*:audio/x-adpcm:*,http-get:*:audio/x-dpcm:*,http-get:*:audio/x-gst_ff-ws_snd1:*,http-get:*:audio/x-wms:*,http-get:*:audio/x-wma:*,http-get:*:audio/x-gst_ff-vmdaudio:*,http-get:*:audio/x-twin-vq:*,http-get:*:audio/x-tta:*,http-get:*:audio/x-truespeech:*,http-get:*:audio/x-true-hd:*,http-get:*:audio/x-sipro:*,http-get:*:audio/x-shorten:*,http-get:*:audio/x-qdm2:*,http-get:*:audio/qcelp:*,http-get:*:audio/x-nellymoser:*,http-get:*:audio/x-ffmpeg-parsed-musepack:*,http-get:*:audio/x-gst_ff-mp3on4:*,http-get:*:audio/x-gst_ff-mp3adu:*,http-get:*:audio/x-mlp:*,http-get:*:audio/x-mace:*,http-get:*:audio/x-imc:*,http-get:*:audio/ms-gsm:*,http-get:*:audio/x-gsm:*,http-get:*:audio/x-flac:*,http-get:*:audio/x-eac3:*,http-get:*:audio/x-dts:*,http-get:*:audio/x-pn-realaudio:*,http-get:*:audio/x-vnd.sony.atrac3:*,http-get:*:audio/x-vnd.sony.atrac1:*,http-get:*:audio/x-ffmpeg-parsed-ape:*,http-get:*:audio/AMR-WB:*,http-get:*:audio/AMR:*,http-get:*:audio/x-alac:*,http-get:*:audio/x-ac3:*,http-get:*:audio/L16;rate=44100;channels=2:*,http-get:*:audio/x-scpls:*,http-get:*:audio/x-mpeg:*,http-get:*:audio/mpeg:*,http-get:*:video/x-zmbv:*,http-get:*:video/x-zlib:*,http-get:*:video/x-gst_ff-xl:*,http-get:*:video/x-xan:*,http-get:*:video/x-gst_ff-wnv1:*,http-get:*:video/x-gst_ff-vqavideo:*,http-get:*:video/x-vp8:*,http-get:*:video/x-vp6-flash:*,http-get:*:video/x-vp6-alpha:*,http-get:*:video/x-vp6:*,http-get:*:video/x-vp5:*,http-get:*:video/x-vp3:*,http-get:*:video/x-vmnc:*,http-get:*:video/x-gst_ff-vmdvideo:*,http-get:*:video/x-ati-vcr:*,http-get:*:video/x-wmv:*,http-get:*:video/x-ultimotion:*,http-get:*:video/x-camtasia:*,http-get:*:video/x-truemotion:*,http-get:*:image/tiff:*,http-get:*:image/x-tga:*,http-get:*:video/x-svq:*,http-get:*:image/x-sun-raster:*,http-get:*:video/sp5x:*,http-get:*:video/x-gst_ff-snow:*,http-get:*:video/x-smc:*,http-get:*:image/x-sgi:*,http-get:*:video/x-pn-realvideo:*,http-get:*:video/x-apple-video:*,http-get:*:video/x-gst_ff-roqvideo:*,http-get:*:video/x-gst_ff-qpeg:*,http-get:*:video/x-qdrw:*,http-get:*:image/ppm:*,http-get:*:image/png:*,http-get:*:video/x-gst_ff-pgmyuv:*,http-get:*:image/x-portable-graymap:*,http-get:*:image/x-pcx:*,http-get:*:image/pbm:*,http-get:*:image/x-portable-anymap:*,http-get:*:video/x-nuv:*,http-get:*:video/x-mszh:*,http-get:*:video/x-msvideocodec:*,http-get:*:video/x-rle:*,http-get:*:video/x-msmpeg:*,http-get:*:video/x-3ivx:*,http-get:*:video/x-xvid:*,http-get:*:video/x-divx:*,http-get:*:video/mpeg:*,http-get:*:video/x-gst_ff-mmvideo:*,http-get:*:video/x-mjpeg-b:*,http-get:*:image/jpeg:*,http-get:*:video/x-mimic:*,http-get:*:video/x-gst_ff-mdec:*,http-get:*:video/x-loco:*,http-get:*:video/x-lagarith:*,http-get:*:video/x-kmvc:*,http-get:*:video/x-gst_ff-interplayvideo:*,http-get:*:video/x-indeo:*,http-get:*:video/x-gst_ff-idcinvideo:*,http-get:*:video/x-huffyuv:*,http-get:*:video/x-h264:*,http-get:*:video/x-intel-h263:*,http-get:*:video/x-h263:*,http-get:*:video/x-h261:*,http-get:*:video/x-fraps:*,http-get:*:video/x-4xm:*,http-get:*:video/x-flash-video:*,http-get:*:video/x-gst_ff-flic:*,http-get:*:video/x-flash-screen:*,http-get:*:video/x-gst_ff-ffvhuff:*,http-get:*:video/x-ffv:*,http-get:*:video/x-gst_ff-8bps:*,http-get:*:video/x-dv:*,http-get:*:video/x-dnxhd:*,http-get:*:video/x-compressed-yuv:*,http-get:*:video/x-camstudio:*,http-get:*:video/x-cirrus-logic-accupak:*,http-get:*:video/x-cinepak:*,http-get:*:video/x-gst_ff-cavs:*,http-get:*:image/bmp:*,http-get:*:video/x-gst_ff-avs:*,http-get:*:video/x-asus:*,http-get:*:unknown/unknown:*,http-get:*:video/x-amv:*,http-get:*:video/x-aasc:*,http-get:*:audio/x-raw-float:*,http-get:*:audio/x-raw-int:*,http-get:*:video/x-raw-gray:*,http-get:*:audio/*:*,http-get:*:video/x-raw-yuv:*,http-get:*:video/x-raw-rgb:*"></SinkProtocolInfo>
+<A_ARG_TYPE_ConnectionStatus val="Unknown"></A_ARG_TYPE_ConnectionStatus>
+<A_ARG_TYPE_AVTransportID val="0"></A_ARG_TYPE_AVTransportID>
+<A_ARG_TYPE_Direction val="Input"></A_ARG_TYPE_Direction>
+<A_ARG_TYPE_RcsID val="0"></A_ARG_TYPE_RcsID>
+<A_ARG_TYPE_ProtocolInfo val=":::"></A_ARG_TYPE_ProtocolInfo>
+<A_ARG_TYPE_ConnectionID val="-1"></A_ARG_TYPE_ConnectionID>
+<SourceProtocolInfo val=""></SourceProtocolInfo>
+<CurrentConnectionIDs val="0"></CurrentConnectionIDs>
+</InstanceID>
+</Event>
+INFO  [2013-05-28 15:27:48.354500 | upnp] Initial variable sync: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<GreenVideoGain val="0"></GreenVideoGain>
+<BlueVideoBlackLevel val="0"></BlueVideoBlackLevel>
+<VerticalKeystone val="0"></VerticalKeystone>
+<GreenVideoBlackLevel val="0"></GreenVideoBlackLevel>
+<Volume val="100"></Volume>
+<Loudness val="0"></Loudness>
+<A_ARG_TYPE_InstanceID val="0"></A_ARG_TYPE_InstanceID>
+<RedVideoGain val="0"></RedVideoGain>
+<ColorTemperature val="0"></ColorTemperature>
+<Sharpness val="0"></Sharpness>
+<A_ARG_TYPE_PresetName val=""></A_ARG_TYPE_PresetName>
+<RedVideoBlackLevel val="0"></RedVideoBlackLevel>
+<BlueVideoGain val="0"></BlueVideoGain>
+<Mute val="0"></Mute>
+<A_ARG_TYPE_Channel val=""></A_ARG_TYPE_Channel>
+<HorizontalKeystone val="0"></HorizontalKeystone>
+<VolumeDB val="0"></VolumeDB>
+<PresetNameList val=""></PresetNameList>
+<Contrast val="0"></Contrast>
+<Brightness val="0"></Brightness>
+</InstanceID>
+</Event>
+INFO  [2013-05-28 15:28:09.892492 | webserver] webserver_get_info:(filename='/upnp/rendertransportSCPD.xml',info=0xacdeaf90)
+INFO  [2013-05-28 15:28:09.933059 | webserver] webserver_get_info:(filename='/upnp/renderconnmgrSCPD.xml',info=0xacdeaf90)
+INFO  [2013-05-28 15:28:09.959323 | webserver] webserver_get_info:(filename='/upnp/rendercontrolSCPD.xml',info=0xacdeaf90)
+INFO  [2013-05-28 15:28:10.180690 | webserver] webserver_get_info:(filename='/upnp/grender-64x64.png',info=0xacdeaf90)
+INFO  [2013-05-28 15:28:10.226866 | upnp] Subscription request for urn:upnp-org:serviceId:ConnectionManager (uuid:GMediaRender-1_0-000-000-002)
+INFO  [2013-05-28 15:28:10.227600 | upnp] Subscription request for urn:upnp-org:serviceId:AVTransport (uuid:GMediaRender-1_0-000-000-002)
+INFO  [2013-05-28 15:28:10.229856 | upnp] Initial variable sync: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<A_ARG_TYPE_ConnectionManager val="/"></A_ARG_TYPE_ConnectionManager>
+<SinkProtocolInfo val="http-get:*:application/x-annodex:*,http-get:*:audio/x-opus:*,http-get:*:application/x-ogm-audio:*,http-get:*:application/x-ogm-video:*,http-get:*:application/x-ogm-text:*,http-get:*:application/x-ogg-avi:*,http-get:*:audio/x-iec958:*,http-get:*:application/x-gdp:*,http-get:*:audio/x-sbc:*,http-get:*:video/x-surface:*,http-get:*:application/x-subtitle-qttext:*,http-get:*:application/x-subtitle-dks:*,http-get:*:application/x-subtitle-mpl2:*,http-get:*:application/x-subtitle-tmplayer:*,http-get:*:application/x-subtitle-sami:*,http-get:*:application/x-subtitle:*,http-get:*:image/jp2:*,http-get:*:audio/x-wav:*,http-get:*:video/x-raw-grey:*,http-get:*:application/sdp:*,http-get:*:video/x-smoke:*,http-get:*:audio/x-sid:*,http-get:*:application/x-bzip:*,http-get:*:video/x-mve:*,http-get:*:multipart/x-mixed-replace:*,http-get:*:video/x-pwc2:*,http-get:*:video/x-pwc1:*,http-get:*:video/x-sonix:*,http-get:*:audio/x-au:*,http-get:*:application/x-id3:*,http-get:*:application/x-icy:*,http-get:*:hdv/aux-a:*,http-get:*:hdv/aux-v:*,http-get:*:audio/x-amr-wb-sh:*,http-get:*:audio/x-amr-nb-sh:*,http-get:*:image/x-j2c:*,http-get:*:video/x-mp4-part:*,http-get:*:video/x-qt-part:*,http-get:*:application/x-3gp:*,http-get:*:audio/x-m4a:*,http-get:*:video/mj2:*,http-get:*:video/quicktime:*,http-get:*:application/x-apetag:*,http-get:*:video/webm:*,http-get:*:video/x-matroska:*,http-get:*:subpicture/x-dvb:*,http-get:*:subpicture/x-pgs:*,http-get:*:audio/x-private1-lpcm:*,http-get:*:application/x-raw-sdi:*,http-get:*:audio/riff-midi:*,http-get:*:audio/midi:*,http-get:*:audio/x-wavpack-correction:*,http-get:*:audio/x-wavpack:*,http-get:*:application/x-rdt:*,http-get:*:application/x-pn-realaudio:*,http-get:*:application/vnd.rn-realmedia:*,http-get:*:audio/x-vorbis:*,http-get:*:audio/x-siren:*,http-get:*:video/mpegts:*,http-get:*:video/x-jpeg:*,http-get:*:audio/G729:*,http-get:*:audio/G723:*,http-get:*:audio/x-iLBC:*,http-get:*:audio/x-bv:*,http-get:*:private/teletext:*,http-get:*:application/x-kate:*,http-get:*:subtitle/x-kate:*,http-get:*:video/x-vcd:*,http-get:*:video/x-cdxa:*,http-get:*:audio/x-stm:*,http-get:*:audio/x-s3m:*,http-get:*:audio/x-it:*,http-get:*:audio/x-xm:*,http-get:*:audio/x-mod:*,http-get:*:video/x-ms-asf:*,http-get:*:video/x-ivf:*,http-get:*:text/x-cmml:*,http-get:*:video/x-fli:*,http-get:*:audio/x-vgm:*,http-get:*:audio/x-spc:*,http-get:*:audio/x-sap:*,http-get:*:audio/x-kss:*,http-get:*:audio/x-hes:*,http-get:*:audio/x-gym:*,http-get:*:audio/x-gbs:*,http-get:*:audio/x-ay:*,http-get:*:audio/x-lpcm:*,http-get:*:application/x-hls:*,http-get:*:video/x-dvd-subpicture:*,http-get:*:application/x-rtcp:*,http-get:*:application/x-rtp:*,http-get:*:audio/x-nsf:*,http-get:*:application/x-subtitle-avi:*,http-get:*:image/x-jpc:*,http-get:*:video/x-msvideo:*,http-get:*:raw/x-pcap:*,http-get:*:application/x-ssa:*,http-get:*:application/x-ass:*,http-get:*:text/x-pango-markup:*,http-get:*:audio/x-private1-dts:*,http-get:*:video/x-dirac:*,http-get:*:image/svg+xml:*,http-get:*:image/svg:*,http-get:*:image/x-bitmap:*,http-get:*:image/vnd.wap.wbmp:*,http-get:*:image/x-MS-bmp:*,http-get:*:image/x-bmp:*,http-get:*:image/x-pixmap:*,http-get:*:image/x-cmu-raster:*,http-get:*:application/x-navi-animation:*,http-get:*:image/x-icon:*,http-get:*:image/gif:*,http-get:*:audio/x-private1-ac3:*,http-get:*:audio/ac3:*,http-get:*:audio/x-speex:*,http-get:*:video/x-flv:*,http-get:*:text/plain:*,http-get:*:application/ogg:*,http-get:*:image/x-portable-pixmap:*,http-get:*:image/x-portable-bitmap:*,http-get:*:audio/x-celt:*,http-get:*:video/x-raw-bayer:*,http-get:*:video/x-theora:*,http-get:*:audio/x-alaw:*,http-get:*:audio/x-mulaw:*,http-get:*:application/x-yuv4mpeg:*,http-get:*:application/x-gst_ff-wsvqa:*,http-get:*:application/x-gst_ff-wsaud:*,http-get:*:application/x-gst_ff-wc3movie:*,http-get:*:application/x-gst_ff-voc:*,http-get:*:application/x-gst_ff-vmd:*,http-get:*:audio/x-ttafile:*,http-get:*:application/x-shockwave-flash:*,http-get:*:application/x-gst_ff-psxstr:*,http-get:*:application/x-gst_ff-sol:*,http-get:*:application/x-gst_ff-smk:*,http-get:*:application/x-gst_ff-film_cpk:*,http-get:*:application/x-gst_ff-RoQ:*,http-get:*:application/x-gst_ff-nuv:*,http-get:*:application/x-gst_ff-nut:*,http-get:*:video/x-nsv:*,http-get:*:application/mxf:*,http-get:*:audio/x-musepack:*,http-get:*:application/x-gst_ff-mmf:*,http-get:*:application/x-gst_ff-mm:*,http-get:*:application/x-gst_ff-ipmovie:*,http-get:*:application/x-gst_ff-idcin:*,http-get:*:application/gxf:*,http-get:*:application/x-gst_ff-ffm:*,http-get:*:application/x-gst_ff-ea:*,http-get:*:application/x-gst_ff-daud:*,http-get:*:application/x-gst_ff-avs:*,http-get:*:application/x-ape:*,http-get:*:audio/x-aiff:*,http-get:*:audio/G722:*,http-get:*:audio/x-adpcm:*,http-get:*:audio/x-dpcm:*,http-get:*:audio/x-gst_ff-ws_snd1:*,http-get:*:audio/x-wms:*,http-get:*:audio/x-wma:*,http-get:*:audio/x-gst_ff-vmdaudio:*,http-get:*:audio/x-twin-vq:*,http-get:*:audio/x-tta:*,http-get:*:audio/x-truespeech:*,http-get:*:audio/x-true-hd:*,http-get:*:audio/x-sipro:*,http-get:*:audio/x-shorten:*,http-get:*:audio/x-qdm2:*,http-get:*:audio/qcelp:*,http-get:*:audio/x-nellymoser:*,http-get:*:audio/x-ffmpeg-parsed-musepack:*,http-get:*:audio/x-gst_ff-mp3on4:*,http-get:*:audio/x-gst_ff-mp3adu:*,http-get:*:audio/x-mlp:*,http-get:*:audio/x-mace:*,http-get:*:audio/x-imc:*,http-get:*:audio/ms-gsm:*,http-get:*:audio/x-gsm:*,http-get:*:audio/x-flac:*,http-get:*:audio/x-eac3:*,http-get:*:audio/x-dts:*,http-get:*:audio/x-pn-realaudio:*,http-get:*:audio/x-vnd.sony.atrac3:*,http-get:*:audio/x-vnd.sony.atrac1:*,http-get:*:audio/x-ffmpeg-parsed-ape:*,http-get:*:audio/AMR-WB:*,http-get:*:audio/AMR:*,http-get:*:audio/x-alac:*,http-get:*:audio/x-ac3:*,http-get:*:audio/L16;rate=44100;channels=2:*,http-get:*:audio/x-scpls:*,http-get:*:audio/x-mpeg:*,http-get:*:audio/mpeg:*,http-get:*:video/x-zmbv:*,http-get:*:video/x-zlib:*,http-get:*:video/x-gst_ff-xl:*,http-get:*:video/x-xan:*,http-get:*:video/x-gst_ff-wnv1:*,http-get:*:video/x-gst_ff-vqavideo:*,http-get:*:video/x-vp8:*,http-get:*:video/x-vp6-flash:*,http-get:*:video/x-vp6-alpha:*,http-get:*:video/x-vp6:*,http-get:*:video/x-vp5:*,http-get:*:video/x-vp3:*,http-get:*:video/x-vmnc:*,http-get:*:video/x-gst_ff-vmdvideo:*,http-get:*:video/x-ati-vcr:*,http-get:*:video/x-wmv:*,http-get:*:video/x-ultimotion:*,http-get:*:video/x-camtasia:*,http-get:*:video/x-truemotion:*,http-get:*:image/tiff:*,http-get:*:image/x-tga:*,http-get:*:video/x-svq:*,http-get:*:image/x-sun-raster:*,http-get:*:video/sp5x:*,http-get:*:video/x-gst_ff-snow:*,http-get:*:video/x-smc:*,http-get:*:image/x-sgi:*,http-get:*:video/x-pn-realvideo:*,http-get:*:video/x-apple-video:*,http-get:*:video/x-gst_ff-roqvideo:*,http-get:*:video/x-gst_ff-qpeg:*,http-get:*:video/x-qdrw:*,http-get:*:image/ppm:*,http-get:*:image/png:*,http-get:*:video/x-gst_ff-pgmyuv:*,http-get:*:image/x-portable-graymap:*,http-get:*:image/x-pcx:*,http-get:*:image/pbm:*,http-get:*:image/x-portable-anymap:*,http-get:*:video/x-nuv:*,http-get:*:video/x-mszh:*,http-get:*:video/x-msvideocodec:*,http-get:*:video/x-rle:*,http-get:*:video/x-msmpeg:*,http-get:*:video/x-3ivx:*,http-get:*:video/x-xvid:*,http-get:*:video/x-divx:*,http-get:*:video/mpeg:*,http-get:*:video/x-gst_ff-mmvideo:*,http-get:*:video/x-mjpeg-b:*,http-get:*:image/jpeg:*,http-get:*:video/x-mimic:*,http-get:*:video/x-gst_ff-mdec:*,http-get:*:video/x-loco:*,http-get:*:video/x-lagarith:*,http-get:*:video/x-kmvc:*,http-get:*:video/x-gst_ff-interplayvideo:*,http-get:*:video/x-indeo:*,http-get:*:video/x-gst_ff-idcinvideo:*,http-get:*:video/x-huffyuv:*,http-get:*:video/x-h264:*,http-get:*:video/x-intel-h263:*,http-get:*:video/x-h263:*,http-get:*:video/x-h261:*,http-get:*:video/x-fraps:*,http-get:*:video/x-4xm:*,http-get:*:video/x-flash-video:*,http-get:*:video/x-gst_ff-flic:*,http-get:*:video/x-flash-screen:*,http-get:*:video/x-gst_ff-ffvhuff:*,http-get:*:video/x-ffv:*,http-get:*:video/x-gst_ff-8bps:*,http-get:*:video/x-dv:*,http-get:*:video/x-dnxhd:*,http-get:*:video/x-compressed-yuv:*,http-get:*:video/x-camstudio:*,http-get:*:video/x-cirrus-logic-accupak:*,http-get:*:video/x-cinepak:*,http-get:*:video/x-gst_ff-cavs:*,http-get:*:image/bmp:*,http-get:*:video/x-gst_ff-avs:*,http-get:*:video/x-asus:*,http-get:*:unknown/unknown:*,http-get:*:video/x-amv:*,http-get:*:video/x-aasc:*,http-get:*:audio/x-raw-float:*,http-get:*:audio/x-raw-int:*,http-get:*:video/x-raw-gray:*,http-get:*:audio/*:*,http-get:*:video/x-raw-yuv:*,http-get:*:video/x-raw-rgb:*"></SinkProtocolInfo>
+<A_ARG_TYPE_ConnectionStatus val="Unknown"></A_ARG_TYPE_ConnectionStatus>
+<A_ARG_TYPE_AVTransportID val="0"></A_ARG_TYPE_AVTransportID>
+<A_ARG_TYPE_Direction val="Input"></A_ARG_TYPE_Direction>
+<A_ARG_TYPE_RcsID val="0"></A_ARG_TYPE_RcsID>
+<A_ARG_TYPE_ProtocolInfo val=":::"></A_ARG_TYPE_ProtocolInfo>
+<A_ARG_TYPE_ConnectionID val="-1"></A_ARG_TYPE_ConnectionID>
+<SourceProtocolInfo val=""></SourceProtocolInfo>
+<CurrentConnectionIDs val="0"></CurrentConnectionIDs>
+</InstanceID>
+</Event>
+INFO  [2013-05-28 15:28:10.230684 | upnp] Subscription request for urn:upnp-org:serviceId:RenderingControl (uuid:GMediaRender-1_0-000-000-002)
+INFO  [2013-05-28 15:28:10.231023 | upnp] Initial variable sync: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<TransportStatus val="OK"></TransportStatus>
+<NextAVTransportURI val=""></NextAVTransportURI>
+<NextAVTransportURIMetaData val=""></NextAVTransportURIMetaData>
+<CurrentTrackMetaData val=""></CurrentTrackMetaData>
+<RelativeCounterPosition val="2147483647"></RelativeCounterPosition>
+<A_ARG_TYPE_InstanceID val="0"></A_ARG_TYPE_InstanceID>
+<A_ARG_TYPE_SeekTarget val=""></A_ARG_TYPE_SeekTarget>
+<PlaybackStorageMedium val="UNKNOWN"></PlaybackStorageMedium>
+<RelativeTimePosition val="0:00:00"></RelativeTimePosition>
+<PossibleRecordStorageMedia val="NOT_IMPLEMENTED"></PossibleRecordStorageMedia>
+<CurrentPlayMode val="NORMAL"></CurrentPlayMode>
+<TransportPlaySpeed val="1"></TransportPlaySpeed>
+<PossiblePlaybackStorageMedia val="NETWORK,UNKNOWN"></PossiblePlaybackStorageMedia>
+<AbsoluteTimePosition val="NOT_IMPLEMENTED"></AbsoluteTimePosition>
+<CurrentTrack val="0"></CurrentTrack>
+<CurrentTrackURI val=""></CurrentTrackURI>
+<CurrentTransportActions val="PLAY"></CurrentTransportActions>
+<NumberOfTracks val="0"></NumberOfTracks>
+<AVTransportURI val=""></AVTransportURI>
+<AbsoluteCounterPosition val="2147483647"></AbsoluteCounterPosition>
+<CurrentRecordQualityMode val="NOT_IMPLEMENTED"></CurrentRecordQualityMode>
+<CurrentMediaDuration val=""></CurrentMediaDuration>
+<A_ARG_TYPE_SeekMode val="TRACK_NR"></A_ARG_TYPE_SeekMode>
+<AVTransportURIMetaData val=""></AVTransportURIMetaData>
+<RecordStorageMedium val="NOT_IMPLEMENTED"></RecordStorageMedium>
+<RecordMediumWriteStatus val="NOT_IMPLEMENTED"></RecordMediumWriteStatus>
+<CurrentTrackDuration val="0:00:00"></CurrentTrackDuration>
+<TransportState val="STOPPED"></TransportState>
+<PossibleRecordQualityModes val="NOT_IMPLEMENTED"></PossibleRecordQualityModes>
+</InstanceID>
+</Event>
+INFO  [2013-05-28 15:28:10.231739 | upnp] Initial variable sync: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<GreenVideoGain val="0"></GreenVideoGain>
+<BlueVideoBlackLevel val="0"></BlueVideoBlackLevel>
+<VerticalKeystone val="0"></VerticalKeystone>
+<GreenVideoBlackLevel val="0"></GreenVideoBlackLevel>
+<Volume val="100"></Volume>
+<Loudness val="0"></Loudness>
+<A_ARG_TYPE_InstanceID val="0"></A_ARG_TYPE_InstanceID>
+<RedVideoGain val="0"></RedVideoGain>
+<ColorTemperature val="0"></ColorTemperature>
+<Sharpness val="0"></Sharpness>
+<A_ARG_TYPE_PresetName val=""></A_ARG_TYPE_PresetName>
+<RedVideoBlackLevel val="0"></RedVideoBlackLevel>
+<BlueVideoGain val="0"></BlueVideoGain>
+<Mute val="0"></Mute>
+<A_ARG_TYPE_Channel val=""></A_ARG_TYPE_Channel>
+<HorizontalKeystone val="0"></HorizontalKeystone>
+<VolumeDB val="0"></VolumeDB>
+<PresetNameList val=""></PresetNameList>
+<Contrast val="0"></Contrast>
+<Brightness val="0"></Brightness>
+</InstanceID>
+</Event>
+INFO  [2013-05-28 15:28:30.364618 | upnp] Action 'SetAVTransportURI'; Request: <?xml version="1.0"?>
+<u:SetAVTransportURI xmlns:u="urn:schemas-upnp-org:service:AVTransport:1">
+<InstanceID>0</InstanceID>
+<CurrentURI>http://172.18.1.186:9000/disk/NON-DLNA/music/O0$1$7I5139/PAGANINI%20VIolin%20Concerto%20No.1%201%20%2D%20Allegro%20Maestoso.flac</CurrentURI>
+<CurrentURIMetaData>&lt;DIDL-Lite xmlns=&quot;urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:upnp=&quot;urn:schemas-upnp-org:metadata-1-0/upnp/&quot; xmlns:dlna=&quot;urn:schemas-dlna-org:metadata-1-0/&quot;&gt;&lt;item id=&quot;0$1$12$9573$9574R5139&quot; parentID=&quot;0$1$12$9573$9574&quot; restricted=&quot;1&quot;&gt;&lt;dc:title&gt;PAGANINI VIolin Concerto No.1 1 - Allegro Maestoso&lt;/dc:title&gt;&lt;dc:creator&gt;Unknown&lt;/dc:creator&gt;&lt;upnp:artist&gt;Itzhak Perlman&lt;/upnp:artist&gt;&lt;upnp:actor&gt;Itzhak Perlman&lt;/upnp:actor&gt;&lt;upnp:author&gt;Itzhak Perlman&lt;/upnp:author&gt;&lt;upnp:album&gt;PAGANINI VIolin Concerto No.1 &amp;amp; SARASTE Carmen Fantasy&lt;/upnp:album&gt;&lt;upnp:genre&gt;未知&lt;/upnp:genre&gt;&lt;upnp:albumArtURI dlna:profileID=&quot;JPEG_TN&quot;&gt;http://172.18.1.186:9000/cgi-bin/W160/H160/S314/L124952/Xjpeg-scale.desc/O0$1$7I5139.jpg&lt;/upnp:albumArtURI&gt;&lt;upnp:originalTrackNumber&gt;1&lt;/upnp:originalTrackNumber&gt;&lt;res duration=&quot;0:19:21.000&quot; size=&quot;99025126&quot; protocolInfo=&quot;http-get:*:audio/x-flac:*&quot;&gt;http://172.18.1.186:9000/disk/NON-DLNA/music/O0$1$7I5139/PAGANINI%20VIolin%20Concerto%20No.1%201%20%2D%20Allegro%20Maestoso.flac&lt;/res&gt;&lt;upnp:class&gt;object.item.audioItem.musicTrack&lt;/upnp:class&gt;&lt;/item&gt;&lt;/DIDL-Lite&gt;</CurrentURIMetaData>
+</u:SetAVTransportURI>
+INFO  [2013-05-28 15:28:30.364759 | transport] AVTransportURI: http://172.18.1.186:9000/disk/NON-DLNA/music/O0$1$7I5139/PAGANINI%20VIolin%20Concerto%20No.1%201%20%2D%20Allegro%20Maestoso.flac
+INFO  [2013-05-28 15:28:30.364820 | transport] AVTransportURIMetaData: <DIDL-Lite xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:dlna="urn:schemas-dlna-org:metadata-1-0/"><item id="0$1$12$9573$9574R5139" parentID="0$1$12$9573$9574" restricted="1"><dc:title>PAGANINI VIolin Concerto No.1 1 - Allegro Maestoso</dc:title><dc:creator>Unknown</dc:creator><upnp:artist>Itzhak Perlman</upnp:artist><upnp:actor>Itzhak Perlman</upnp:actor><upnp:author>Itzhak Perlman</upnp:author><upnp:album>PAGANINI VIolin Concerto No.1 &amp; SARASTE Carmen Fantasy</upnp:album><upnp:genre>未知</upnp:genre><upnp:albumArtURI dlna:profileID="JPEG_TN">http://172.18.1.186:9000/cgi-bin/W160/H160/S314/L124952/Xjpeg-scale.desc/O0$1$7I5139.jpg</upnp:albumArtURI><upnp:originalTrackNumber>1</upnp:originalTrackNumber><res duration="0:19:21.000" size="99025126" protocolInfo="http-get:*:audio/x-flac:*">http://172.18.1.186:9000/disk/NON-DLNA/music/O0$1$7I5139/PAGANINI%20VIolin%20Concerto%20No.1%201%20%2D%20Allegro%20Maestoso.flac</res><upnp:class>object.item.audioItem.musicTrack</upnp:class></item></DIDL-Lite>
+INFO  [2013-05-28 15:28:30.364868 | transport] NumberOfTracks: 1
+INFO  [2013-05-28 15:28:30.364929 | gstreamer] Set uri to http://172.18.1.186:9000/disk/NON-DLNA/music/O0$1$7I5139/PAGANINI%20VIolin%20Concerto%20No.1%201%20%2D%20Allegro%20Maestoso.flac
+INFO  [2013-05-28 15:28:30.364959 | upnp] Action 'SetAVTransportURI' OK
+INFO  [2013-05-28 15:28:30.365538 | transport] LastChange: <?xml version="1.0"?>
+<Event xmlns="urn:schemas-upnp-org:metadata-1-0/AVT/">
+<InstanceID val="0">
+<AVTransportURI val="http://172.18.1.186:9000/disk/NON-DLNA/music/O0$1$7I5139/PAGANINI%20VIolin%20Concerto%20No.1%201%20%2D%20Allegro%20Maestoso.flac"></AVTransportURI>
+<AVTransportURIMetaData val="&lt;DIDL-Lite xmlns=&quot;urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:upnp=&quot;urn:schemas-upnp-org:metadata-1-0/upnp/&quot; xmlns:dlna=&quot;urn:schemas-dlna-org:metadata-1-0/&quot;&gt;&lt;item id=&quot;0$1$12$9573$9574R5139&quot; parentID=&quot;0$1$12$9573$9574&quot; restricted=&quot;1&quot;&gt;&lt;dc:title&gt;PAGANINI VIolin Concerto No.1 1 - Allegro Maestoso&lt;/dc:title&gt;&lt;dc:creator&gt;Unknown&lt;/dc:creator&gt;&lt;upnp:artist&gt;Itzhak Perlman&lt;/upnp:artist&gt;&lt;upnp:actor&gt;Itzhak Perlman&lt;/upnp:actor&gt;&lt;upnp:author&gt;Itzhak Perlman&lt;/upnp:author&gt;&lt;upnp:album&gt;PAGANINI VIolin Concerto No.1 &amp;amp; SARASTE Carmen Fantasy&lt;/upnp:album&gt;&lt;upnp:genre&gt;未知&lt;/upnp:genre&gt;&lt;upnp:albumArtURI dlna:profileID=&quot;JPEG_TN&quot;&gt;http://172.18.1.186:9000/cgi-bin/W160/H160/S314/L124952/Xjpeg-scale.desc/O0$1$7I5139.jpg&lt;/upnp:albumArtURI&gt;&lt;upnp:originalTrackNumber&gt;1&lt;/upnp:originalTrackNumber&gt;&lt;res duration=&quot;0:19:21.000&quot; size=&quot;99025126&quot; protocolInfo=&quot;http-get:*:audio/x-flac:*&quot;&gt;http://172.18.1.186:9000/disk/NON-DLNA/music/O0$1$7I5139/PAGANINI%20VIolin%20Concerto%20No.1%201%20%2D%20Allegro%20Maestoso.flac&lt;/res&gt;&lt;upnp:class&gt;object.item.audioItem.musicTrack&lt;/upnp:class&gt;&lt;/item&gt;&lt;/DIDL-Lite&gt;"></AVTransportURIMetaData>
+<NumberOfTracks val="1"></NumberOfTracks>
+</InstanceID>
+</Event>
