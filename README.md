@@ -1,4 +1,0 @@
-aaaaapastebin
-=============
-
-logfile
